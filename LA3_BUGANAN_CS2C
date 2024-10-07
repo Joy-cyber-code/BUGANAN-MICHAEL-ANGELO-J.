@@ -1,0 +1,14 @@
+let maxLimit = prompt("Enter the Max Limit of the Loops:");
+maxLimit = Number(maxLimit);
+let counter1 = 0;
+let counter2 = 0;
+let sum = 0;
+for (let i = 0; i < maxLimit; i++) {
+    counter1 = i; 
+    for (let j = 0; j < maxLimit; j++) {
+        counter2 = j; 
+
+        sum = counter1 + counter2;
+
+        console.log(`Loop Points - Counter1: ${counter1}, Counter2: ${counter2}, Sum: ${sum}`);
+    }
